@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Browser session and login cookies
+browser-profile/
+
+# Generated student PDFs
+student-pdfs/
+*.pdf
+
+# Screenshots
+*.png
+*.jpg
+*.jpeg
+
+# Environment secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
